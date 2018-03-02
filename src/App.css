@@ -5,8 +5,8 @@
   flex-direction: column;
   align-items: center;
   background-color: var(--color-bg);
-  height: 100px;
-  padding: 20px;
+  height: 120px;
+  padding: 20px 0;
   color: #fff;
 }
 
@@ -37,5 +37,5 @@
 }
 
 .App__listing {
-  padding-top: 150px;
+  padding-top: 170px;
 }
