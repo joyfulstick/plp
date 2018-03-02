@@ -1,0 +1,18 @@
+.filters {
+  display: flex;
+  justify-content: space-around;
+}
+.filters__dropdawn {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.filters__dropdawn:hover .list {
+  max-height: 1rem;
+}
+
+@media (min-width: 700px) {
+  .filters {
+    justify-content: flex-start;
+  }
+}

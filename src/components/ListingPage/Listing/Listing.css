@@ -1,0 +1,30 @@
+.listing {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+}
+
+.listing__product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+}
+
+.listing__product__name {
+  text-transform: capitalize;
+}
+
+@media (min-width: 700px) {
+  .listing {
+  grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1100px) {
+  .listing {
+  grid-template-columns: repeat(3, 1fr);
+  }
+}
