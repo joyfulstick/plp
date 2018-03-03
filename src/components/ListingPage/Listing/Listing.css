@@ -9,8 +9,19 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin: 1rem auto;
   width: 300px;
   height: 300px;
+  filter: saturate(.8);
+}
+
+.listing__product:focus {
+  filter: brightness(1.5);
+}
+
+.listing__product:hover {
+  filter: brightness(1.5);
+  cursor: pointer;
 }
 
 .listing__product__name {

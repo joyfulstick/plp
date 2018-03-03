@@ -8,6 +8,7 @@
   height: 120px;
   padding: 20px 0;
   color: #fff;
+  z-index: 1;
 }
 
 .App__title {

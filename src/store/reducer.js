@@ -1,4 +1,4 @@
-const initialState = { selectedItems: [] }
+const initialState = { selectedItems: [], value: '' }
 
 const selectItems = (state, action) => {
   const { selected, value } = action.payload,
@@ -6,7 +6,7 @@ const selectItems = (state, action) => {
   selected
     ? selectedItems.push(value)
     : selectedItems.splice(selectedItems.indexOf(value), 1)
-  return { ...state, selectedItems }
+  return { ...state, selectedItems, value }
 }
 
 const reducer = (state = initialState, action) => {

@@ -2,9 +2,12 @@
   display: flex;
   justify-content: space-around;
 }
+
 .filters__dropdawn {
   list-style: none;
   text-transform: uppercase;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .filters__dropdawn:hover .list {
