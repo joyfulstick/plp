@@ -1,6 +1,6 @@
 :root {
-  --color-main: #00d8ff;
-  --color-bg: #222;
+  --color-primary: #222;
+  --color-secondary: #00d8ff;
 }
 
 body {

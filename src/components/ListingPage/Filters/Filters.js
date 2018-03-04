@@ -8,7 +8,7 @@ const Filters = props => (
   <section className="filters">
     {Object.entries(definitions).map(([drop, options]) => (
       <ul key={drop} className="filters__dropdawn">
-        <li>{drop}</li>
+        <li className="filters__dropdawn__item">{drop}</li>
         {
           options.map(option => (
             <Filter key={option} onMouseUp={props.onSelect}>{option}</Filter>
